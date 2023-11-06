@@ -1,0 +1,231 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    width: 100px;
+    height: 100px;
+} 
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 85px;
+    background-color: #080431;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20%;
+    margin-left: 120px;
+}
+
+.logo img {
+    width: 100px;
+
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p {
+    margin-right: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 90px;
+    height: 44px;
+    border-radius: 5px;
+    background: rgb(226, 9, 9);
+    margin-right: 100px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-image: url(./Images/banner.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    /* min-height: 500px; */
+}
+
+.banner h1 {
+    font-size: 65px;
+}
+
+.banner-form {
+    background: rgba(231, 228, 228, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    width: 1100px;
+}
+
+.banner-form .form-group {
+    margin-bottom: 0;
+    line-height: 1;
+    text-align: left;
+   
+
+}
+
+.banner-form .form-group label {
+    font-size: 15px;
+    color: #494949;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-group .form-control {
+    height: 60px;
+    border-radius: 10px;
+    padding: 12px 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+.form-group .form-control:focus {
+    border-color: unset;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    border: 1px solid #ca0000;
+}
+.banner-form .form-group .form-control::-webkit-input-placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8e8d8d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.banner-form .form-group .form-control:-ms-input-placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8e8d8d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+/* .banner-form .form-group .form-control::-ms-input-placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8e8d8d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+} */
+/* .banner-form .form-group .form-control::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8e8d8d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  } */
+  
+ .banner-form .find-btn {
+    
+    background: #fd1616;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 45%;
+    height: 60px;
+    color: #ffffff;
+    border-radius: 10px;
+    top: 15px;
+    position: relative;
+    padding: 16px 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 100%;
+  }
+  
+  .banner-form .find-btn:hover {
+    background: #001935;
+}
+  
+  .keyword li a:hover {
+    color: #fd1616;
+  }
+
+  .row{
+    
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col-md-4 {
+    width: 33%;
+    flex: 0 0 auto;
+    padding: 10px;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .find-btn {
+    width: 100%;
+  }
